@@ -41,7 +41,7 @@
 		505938DA1646BDDF00DF973E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
 		505938E11646BEE900DF973E /* MWBiographyConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWBiographyConnection.h; sourceTree = "<group>"; };
 		505938E21646BEE900DF973E /* MWBiographyConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWBiographyConnection.m; sourceTree = "<group>"; };
-		505938ED1646CF4C00DF973E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		505938ED1646CF4C00DF973E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = TechTalkExample/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +61,7 @@
 		505938AF1646BDDF00DF973E = {
 			isa = PBXGroup;
 			children = (
+				505938ED1646CF4C00DF973E /* README.md */,
 				505938C41646BDDF00DF973E /* TechTalkExample */,
 				505938BD1646BDDF00DF973E /* Frameworks */,
 				505938BB1646BDDF00DF973E /* Products */,
@@ -96,7 +97,6 @@
 				505938C51646BDDF00DF973E /* Supporting Files */,
 				505938E11646BEE900DF973E /* MWBiographyConnection.h */,
 				505938E21646BEE900DF973E /* MWBiographyConnection.m */,
-				505938ED1646CF4C00DF973E /* README.md */,
 			);
 			path = TechTalkExample;
 			sourceTree = "<group>";
