@@ -7,6 +7,7 @@
 //
 
 #import "MWViewController.h"
+#import "MWBiographyConnection.h"
 
 @interface MWViewController ()
 
@@ -17,7 +18,8 @@
 -(void)didPressSearchButton:(id)sender
 {
     //This happens when the search button is pressed and we have access to the text field!
-    
+    MWBiographyConnection *connection = [[MWBiographyConnection alloc] initWithArtistName:[artistField text] delegate:self];
+    [connection start];
 }
 
 - (void)viewDidLoad
