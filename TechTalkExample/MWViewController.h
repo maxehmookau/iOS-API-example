@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface MWViewController : UIViewController
+{
+    IBOutlet UIButton *searchButton;
+    IBOutlet UITextField *artistField;
+}
 
+-(IBAction)didPressSearchButton:(id)sender;
 @end

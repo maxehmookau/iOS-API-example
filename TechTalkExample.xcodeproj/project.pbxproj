@@ -18,6 +18,7 @@
 		505938D51646BDDF00DF973E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 505938D41646BDDF00DF973E /* Default-568h@2x.png */; };
 		505938D81646BDDF00DF973E /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505938D71646BDDF00DF973E /* MWViewController.m */; };
 		505938DB1646BDDF00DF973E /* MWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505938D91646BDDF00DF973E /* MWViewController.xib */; };
+		505938E31646BEE900DF973E /* MWBiographyConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 505938E21646BEE900DF973E /* MWBiographyConnection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		505938D61646BDDF00DF973E /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
 		505938D71646BDDF00DF973E /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
 		505938DA1646BDDF00DF973E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
+		505938E11646BEE900DF973E /* MWBiographyConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWBiographyConnection.h; sourceTree = "<group>"; };
+		505938E21646BEE900DF973E /* MWBiographyConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWBiographyConnection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				505938D71646BDDF00DF973E /* MWViewController.m */,
 				505938D91646BDDF00DF973E /* MWViewController.xib */,
 				505938C51646BDDF00DF973E /* Supporting Files */,
+				505938E11646BEE900DF973E /* MWBiographyConnection.h */,
+				505938E21646BEE900DF973E /* MWBiographyConnection.m */,
 			);
 			path = TechTalkExample;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				505938CB1646BDDF00DF973E /* main.m in Sources */,
 				505938CF1646BDDF00DF973E /* MWAppDelegate.m in Sources */,
 				505938D81646BDDF00DF973E /* MWViewController.m in Sources */,
+				505938E31646BEE900DF973E /* MWBiographyConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

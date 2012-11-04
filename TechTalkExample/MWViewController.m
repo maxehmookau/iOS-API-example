@@ -14,6 +14,12 @@
 
 @implementation MWViewController
 
+-(void)didPressSearchButton:(id)sender
+{
+    //This happens when the search button is pressed and we have access to the text field!
+    
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
