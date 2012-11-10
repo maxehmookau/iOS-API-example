@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5057EDE8164EA23900A151E0 /* MWBiographyDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5057EDE6164EA23900A151E0 /* MWBiographyDisplayViewController.m */; };
+		5057EDE9164EA23900A151E0 /* MWBiographyDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5057EDE7164EA23900A151E0 /* MWBiographyDisplayViewController.xib */; };
 		505938BF1646BDDF00DF973E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505938BE1646BDDF00DF973E /* UIKit.framework */; };
 		505938C11646BDDF00DF973E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505938C01646BDDF00DF973E /* Foundation.framework */; };
 		505938C31646BDDF00DF973E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505938C21646BDDF00DF973E /* CoreGraphics.framework */; };
@@ -23,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5057EDE5164EA23900A151E0 /* MWBiographyDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWBiographyDisplayViewController.h; sourceTree = "<group>"; };
+		5057EDE6164EA23900A151E0 /* MWBiographyDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWBiographyDisplayViewController.m; sourceTree = "<group>"; };
+		5057EDE7164EA23900A151E0 /* MWBiographyDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWBiographyDisplayViewController.xib; sourceTree = "<group>"; };
 		505938BA1646BDDF00DF973E /* TechTalkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechTalkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		505938BE1646BDDF00DF973E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		505938C01646BDDF00DF973E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,6 +102,9 @@
 				505938C51646BDDF00DF973E /* Supporting Files */,
 				505938E11646BEE900DF973E /* MWBiographyConnection.h */,
 				505938E21646BEE900DF973E /* MWBiographyConnection.m */,
+				5057EDE5164EA23900A151E0 /* MWBiographyDisplayViewController.h */,
+				5057EDE6164EA23900A151E0 /* MWBiographyDisplayViewController.m */,
+				5057EDE7164EA23900A151E0 /* MWBiographyDisplayViewController.xib */,
 			);
 			path = TechTalkExample;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				505938D51646BDDF00DF973E /* Default-568h@2x.png in Resources */,
 				505938DB1646BDDF00DF973E /* MWViewController.xib in Resources */,
 				505938EE1646CF4C00DF973E /* README.md in Resources */,
+				5057EDE9164EA23900A151E0 /* MWBiographyDisplayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +196,7 @@
 				505938CF1646BDDF00DF973E /* MWAppDelegate.m in Sources */,
 				505938D81646BDDF00DF973E /* MWViewController.m in Sources */,
 				505938E31646BEE900DF973E /* MWBiographyConnection.m in Sources */,
+				5057EDE8164EA23900A151E0 /* MWBiographyDisplayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

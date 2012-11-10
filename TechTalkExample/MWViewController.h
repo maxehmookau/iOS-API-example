@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MWBiographyConnection.h"
 
-@interface MWViewController : UIViewController
+@interface MWViewController : UIViewController <MWBiographyConnectionDelegate>
 {
     IBOutlet UIButton *searchButton;
     IBOutlet UITextField *artistField;

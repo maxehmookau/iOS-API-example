@@ -8,6 +8,7 @@
 
 #import "MWViewController.h"
 #import "MWBiographyConnection.h"
+#import "MWBiographyDisplayViewController.h"
 
 @interface MWViewController ()
 
@@ -22,10 +23,23 @@
     [connection start];
 }
 
+-(void)finishedGettingBiography:(MWBiographyConnection *)aBiography
+{
+    MWBiographyDisplayViewController *bioVC = [[MWBiographyDisplayViewController alloc] initWithBiography:[aBiography biography]];
+    
+    [self.navigationController pushViewController:bioVC animated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    //Reset artist field if the page is reloaded
+    [artistField setText:@""];
 }
 
 - (void)didReceiveMemoryWarning

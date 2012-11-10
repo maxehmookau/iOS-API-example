@@ -11,7 +11,7 @@
 
 @protocol MWBiographyConnectionDelegate <NSObject>
 
--(void)finishedGettingBiographyData;
+-(void)finishedGettingBiography:(MWBiographyConnection *)aBiography;
 
 @end
 
@@ -29,4 +29,5 @@
 -(void)parseData;
 
 @property (nonatomic) id delegate;
+@property (nonatomic) NSString *biography;
 @end

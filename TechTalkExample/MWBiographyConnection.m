@@ -9,7 +9,7 @@
 #import "MWBiographyConnection.h"
 
 @implementation MWBiographyConnection
-@synthesize delegate;
+@synthesize delegate, biography;
 
 -(id)initWithArtistName:(NSString *)anArtist delegate:(id)aDelegate
 {
@@ -45,8 +45,8 @@
 -(void)parseData
 {
     NSJSONSerialization *json = [NSJSONSerialization JSONObjectWithData:receivedData options:NSJSONReadingAllowFragments error:nil];
-    biography = [json valueForKeyPath:@"response.biographies.text"];
-    NSLog(@"%@", biography);
+    biography = [[json valueForKeyPath:@"response.biographies.text"]objectAtIndex:0];
+    [delegate finishedGettingBiography:self];
 }
 
 @end
